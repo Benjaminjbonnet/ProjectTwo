@@ -27,7 +27,7 @@ pipeline {
         }
          stage('DockerRun') {
       steps {
-        sh 'docker run -d -p 6060:6060 benjaminjbonnet/project-two'
+        sh 'docker run -p 6060:6060 benjaminjbonnet/project-two'
       }
         }
   }
