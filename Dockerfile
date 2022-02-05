@@ -1,5 +1,5 @@
 FROM java:8-jdk-alpine
 
-COPY /target/CaramelApple-2.6.2.jar /userrest.jar
+COPY /target/Project2-0.0.1-SNAPSHOT.jar /project-two.jar
 
-CMD ["java","-jar","userrest.jar"]
+CMD ["java","-jar","project-two.jar"]
